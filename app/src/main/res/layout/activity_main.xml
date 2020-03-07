@@ -11,6 +11,7 @@
 
         <Button
             android:id="@+id/button_explicit"
+            android:onClick="handleExplicitIntent"
             android:text="@string/explicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,6 +19,7 @@
 
         <Button
             android:id="@+id/button_implicit"
+            android:onClick="handleImpicitIntent"
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,6 +27,7 @@
 
         <Button
             android:id="@+id/button_bundle"
+            android:onClick="handleBundle"
             android:text="@string/android_bundle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,6 +35,7 @@
 
         <Button
             android:id="@+id/button_parcelable"
+            android:onClick="handleParcelable"
             android:text="@string/parcelable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,6 +43,7 @@
 
         <Button
             android:id="@+id/button_exit"
+            android:onClick="handleExit"
             android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
